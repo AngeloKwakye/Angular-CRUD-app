@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; background-color: #eff4fd;}
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.my-snackbar {
+    background-color: rgb(70, 162, 110);
+    color: #ffffff; /* Change this to your desired text color */
+  }
+  
+  .mat-simple-snackbar-action {
+    background-color: rgb(1, 149, 114);
+    color: #ffffff !important; /* Change this to your desired action button text color */
+  }
