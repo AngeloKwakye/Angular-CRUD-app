@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { RegisterpageComponent } from './registerpage.component';
+import { FormdialogComponent } from './formdialog.component';
 
-describe('RegisterpageComponent', () => {
-  let component: RegisterpageComponent;
-  let fixture: ComponentFixture<RegisterpageComponent>;
+describe('FormdialogComponent', () => {
+  let component: FormdialogComponent;
+  let fixture: ComponentFixture<FormdialogComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ RegisterpageComponent ]
+      declarations: [ FormdialogComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(RegisterpageComponent);
+    fixture = TestBed.createComponent(FormdialogComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
