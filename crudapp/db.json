@@ -1,5 +1,13 @@
 {
   "employee": [
-    
+    {
+      "fname": "gvhjbnk",
+      "lname": "gbnm",
+      "role": 1,
+      "salary": "1234",
+      "isactive": true,
+      "email": "wdnj@gmail.com",
+      "id": 1
+    }
   ]
 }
