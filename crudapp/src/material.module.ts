@@ -19,5 +19,7 @@ import { MatDialogModule } from '@angular/material/dialog';
     MatSortModule,
     MatDialogModule,
   ],
+  declarations: [
+  ],
 })
 export class MaterialModule {}

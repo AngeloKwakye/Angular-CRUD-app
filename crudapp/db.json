@@ -13,30 +13,30 @@
       ],
       "roleid": 5,
       "salary": 1019101,
-      "isactive": true,
+      "isactive": false,
       "currency": [
         {
-          "id": 1,
-          "name": "Cedi",
-          "symbol": "GH₵"
+          "id": 4,
+          "name": "Naira",
+          "symbol": "₦"
         }
       ],
-      "currencyid": 1,
-      "id": 2
+      "currencyid": 4,
+      "id": 1
     },
     {
-      "fname": "sijsn",
-      "lname": "jsnjnsjn",
-      "email": "sjsnj@nn.com",
-      "contact": 1908281911,
+      "fname": "kemkemq",
+      "lname": " k k ",
+      "email": "jsnj@mm.com",
+      "contact": 18218291821,
       "role": [
         {
-          "id": 2,
-          "name": "Product Manager"
+          "id": 5,
+          "name": "Sales Manager"
         }
       ],
-      "roleid": 2,
-      "salary": 11111111221,
+      "roleid": 5,
+      "salary": 1019,
       "isactive": true,
       "currency": [
         {
@@ -46,6 +46,30 @@
         }
       ],
       "currencyid": 2,
+      "id": 2
+    },
+    {
+      "fname": "kemkemq",
+      "lname": " k k ",
+      "email": "jsnj@mm.com",
+      "contact": 18218291821,
+      "role": [
+        {
+          "id": 7,
+          "name": "Business Development Manager"
+        }
+      ],
+      "roleid": 7,
+      "salary": 1019101,
+      "isactive": true,
+      "currency": [
+        {
+          "id": 1,
+          "name": "Cedi",
+          "symbol": "GH₵"
+        }
+      ],
+      "currencyid": 1,
       "id": 3
     }
   ]

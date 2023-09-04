@@ -19,6 +19,7 @@ import { MatSortModule } from '@angular/material/sort';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { FormdialogComponent } from './formdialog/formdialog.component';
+import { ConfirmationComponent } from './confirmation/confirmation.component';
 
 
 
@@ -28,7 +29,8 @@ import { FormdialogComponent } from './formdialog/formdialog.component';
   declarations: [
     AppComponent,
     ListingsComponent,
-    FormdialogComponent
+    FormdialogComponent,
+    ConfirmationComponent
   ],
   imports: [
     BrowserModule,

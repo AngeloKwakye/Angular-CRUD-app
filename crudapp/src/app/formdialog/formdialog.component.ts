@@ -46,7 +46,7 @@ export class FormdialogComponent implements OnInit {
 
   ngOnInit(): void {
     this.populateForm();
-    console.log('editData',this.editData)
+  //  console.log('editData',this.editData)
   }
 
 
@@ -70,7 +70,7 @@ export class FormdialogComponent implements OnInit {
     const value2 = this.currency.filter((val: any)=> val.id === xs);
     this.roleSelected = value;
     this.currencySelected = value2;
-    console.log({value});
+   // console.log({value});
   }
 
 
@@ -95,7 +95,7 @@ export class FormdialogComponent implements OnInit {
         }
         if(this.editData != null || this.editData != undefined){
           this.UpdateData(this.editdataid,employeeDetails)
-          console.log(employeeDetails);
+         // console.log(employeeDetails);
         }else{
           this.savedata(employeeDetails)
         }
@@ -105,7 +105,7 @@ export class FormdialogComponent implements OnInit {
   populateForm(){
     if(this.data.id != '' && this.data.id != null){
       console.log('edeitpopUpData',this.data)
-      this.saveBtn = 'Updata'
+      this.saveBtn = 'Update'
       this.formheader = 'Update Employee Details';
       this.editdataid = this.data.id
       this.service.getEmployeeData(this.data.id).subscribe(result =>{

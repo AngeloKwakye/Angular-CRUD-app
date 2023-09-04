@@ -4,6 +4,7 @@ import { MatDialog, MatDialogRef, MatDialogModule } from '@angular/material/dial
 import { FormdialogComponent } from '../formdialog/formdialog.component';
 import { ApiserviceService } from '../shared/apiservice.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { ConfirmationComponent } from '../confirmation/confirmation.component';
 
 @Component({
   selector: 'app-listings',
@@ -14,6 +15,7 @@ export class ListingsComponent implements OnInit {
 
   employeedata!: employee[]
   displayedColumns: string[]= ['id','name','contact','role','salary','isactive','action']
+  confirmvalue: any
 
   constructor( private dialog: MatDialog, private service: ApiserviceService, private snackbar: MatSnackBar) { }
 
@@ -46,12 +48,29 @@ export class ListingsComponent implements OnInit {
 
 
   deleteEmployee(id: any){
-      this.service.deleteEmployee(id).subscribe(result=>{
-        this.snackbar.open('Deleted Successfully', 'Close',{
-          duration: 3000
-        });
-        this.LoadEmployees();
-      })
+    this.openDialog(id)
+    }
+
+    openDialog(id: any) {
+      const dialogRef = this.dialog.open(ConfirmationComponent,{
+        width: '700px',
+        data: {
+          id: id,
+        }
+      });
+  
+      dialogRef.afterClosed().subscribe(result => {
+       // console.log(`Dialog result: ${result}`);
+        this.confirmvalue = result;
+        if(this.confirmvalue != null || this.confirmvalue != undefined){
+          this.service.deleteEmployee(id).subscribe(result=>{
+            this.snackbar.open('Deleted Successfully', 'Close',{
+              duration: 3000
+            });
+            this.LoadEmployees();
+          });
+        }
+      });
     }
 
 }
