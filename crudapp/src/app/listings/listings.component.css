@@ -5,3 +5,23 @@ th{
     font-weight: 700;
     color: black;
 }
+.btn-gap{
+    display: flex;
+    gap: 10px;
+}
+.edit-btn{
+    color: black;
+    background-color: whitesmoke;
+}
+.edit-btn:hover{
+    color: white;
+    background-color: rgb(136, 214, 244);
+}
+.del-btn{
+    color: black;
+    background-color: rgb(243, 166, 166);
+}
+.del-btn:hover{
+    color: white;
+    background-color: rgb(247, 9, 9);
+} 

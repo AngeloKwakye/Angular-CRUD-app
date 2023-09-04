@@ -3,12 +3,22 @@ export interface employee{
     fname: string,
     lname: string,
     email: string,
-    role: string;
+    role: any,
+    contact: number,
+    roleid: number,
     salary: number,
     isactive: boolean,
+    currency: any,
+    currencyid: number,
 }
 
 export interface employeeRoles{
     id: number,
     name: string,
+}
+
+export interface currency{
+    id: number,
+    name: string,
+    symbol: string,
 }

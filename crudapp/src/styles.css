@@ -1,4 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+@import '../node_modules/alertifyjs/build/css/alertify.min.css';
+@import '../node_modules/alertifyjs/build/css/themes/bootstrap.min.css';
+@import '../node_modules/alertifyjs/build/css/themes/default.min.css';
+
 
 html, body { height: 100%; background-color: #eff4fd;}
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
@@ -12,3 +16,5 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
     background-color: rgb(1, 149, 114);
     color: #ffffff !important; /* Change this to your desired action button text color */
   }
+
+

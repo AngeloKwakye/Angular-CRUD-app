@@ -1,8 +1,8 @@
 /* .example-form {
     min-width: 150px;
-    max-width: 500px;
+    max-width: 900px;
     width: 100%;
-  } */
+  }  */
   
   .form-width {
     width: 100%;
@@ -10,6 +10,9 @@
 
   .mat-elevation-z8{
     padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
   }
 .btn{
     display: flex;
