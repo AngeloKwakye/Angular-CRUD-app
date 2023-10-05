@@ -7,3 +7,17 @@ html{
     top: 0;
     left: 0;
 }
+
+.content {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+.header{
+    padding-left: 400px;
+    font-family: cursive;
+    color: purple;
+}
+.Listings{
+    margin-top: 100px;
+}

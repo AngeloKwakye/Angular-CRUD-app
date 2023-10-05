@@ -1,10 +1,100 @@
 {
-  "users": [
+  "employee": [
     {
-      "id": 1,
-      "username": "admin",
-      "password": "admin",
-      "status": "admin"
+      "fname": "Samuel",
+      "lname": "Kingsley",
+      "email": "jsnj@mm.com",
+      "contact": 18218291821,
+      "role": [
+        {
+          "id": 5,
+          "name": "Sales Manager"
+        }
+      ],
+      "roleid": 5,
+      "salary": 1019101,
+      "isactive": true,
+      "currency": [
+        {
+          "id": 2,
+          "name": "US Dollas",
+          "symbol": "$"
+        }
+      ],
+      "currencyid": 2,
+      "id": 1
+    },
+    {
+      "fname": "Edward",
+      "lname": "Boahenene",
+      "email": "jsnj@mm.com",
+      "contact": 18218291821,
+      "role": [
+        {
+          "id": 5,
+          "name": "Sales Manager"
+        }
+      ],
+      "roleid": 5,
+      "salary": 1019,
+      "isactive": true,
+      "currency": [
+        {
+          "id": 5,
+          "name": "Kwacha",
+          "symbol": "ZK"
+        }
+      ],
+      "currencyid": 5,
+      "id": 2
+    },
+    {
+      "fname": "Richmond",
+      "lname": "Water",
+      "email": "jsnj@mm.com",
+      "contact": 18218291821,
+      "role": [
+        {
+          "id": 7,
+          "name": "Business Development Manager"
+        }
+      ],
+      "roleid": 7,
+      "salary": 1019101,
+      "isactive": true,
+      "currency": [
+        {
+          "id": 1,
+          "name": "Cedi",
+          "symbol": "GH₵"
+        }
+      ],
+      "currencyid": 1,
+      "id": 3
+    },
+    {
+      "fname": "Bismark",
+      "lname": "Jason",
+      "email": "bismark@gmail.com",
+      "contact": 542387654,
+      "role": [
+        {
+          "id": 2,
+          "name": "Product Manager"
+        }
+      ],
+      "roleid": 2,
+      "salary": 2000,
+      "isactive": true,
+      "currency": [
+        {
+          "id": 1,
+          "name": "Cedi",
+          "symbol": "GH₵"
+        }
+      ],
+      "currencyid": 1,
+      "id": 4
     }
   ]
 }
