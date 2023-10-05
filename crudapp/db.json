@@ -1,8 +1,8 @@
 {
   "employee": [
     {
-      "fname": "kemkemq",
-      "lname": " k k ",
+      "fname": "Samuel",
+      "lname": "Kingsley",
       "email": "jsnj@mm.com",
       "contact": 18218291821,
       "role": [
@@ -13,20 +13,20 @@
       ],
       "roleid": 5,
       "salary": 1019101,
-      "isactive": false,
+      "isactive": true,
       "currency": [
         {
-          "id": 4,
-          "name": "Naira",
-          "symbol": "₦"
+          "id": 2,
+          "name": "US Dollas",
+          "symbol": "$"
         }
       ],
-      "currencyid": 4,
+      "currencyid": 2,
       "id": 1
     },
     {
-      "fname": "kemkemq",
-      "lname": " k k ",
+      "fname": "Edward",
+      "lname": "Boahenene",
       "email": "jsnj@mm.com",
       "contact": 18218291821,
       "role": [
@@ -40,17 +40,17 @@
       "isactive": true,
       "currency": [
         {
-          "id": 2,
-          "name": "US Dollas",
-          "symbol": "$"
+          "id": 5,
+          "name": "Kwacha",
+          "symbol": "ZK"
         }
       ],
-      "currencyid": 2,
+      "currencyid": 5,
       "id": 2
     },
     {
-      "fname": "kemkemq",
-      "lname": " k k ",
+      "fname": "Richmond",
+      "lname": "Water",
       "email": "jsnj@mm.com",
       "contact": 18218291821,
       "role": [
@@ -71,6 +71,30 @@
       ],
       "currencyid": 1,
       "id": 3
+    },
+    {
+      "fname": "Bismark",
+      "lname": "Jason",
+      "email": "bismark@gmail.com",
+      "contact": 542387654,
+      "role": [
+        {
+          "id": 2,
+          "name": "Product Manager"
+        }
+      ],
+      "roleid": 2,
+      "salary": 2000,
+      "isactive": true,
+      "currency": [
+        {
+          "id": 1,
+          "name": "Cedi",
+          "symbol": "GH₵"
+        }
+      ],
+      "currencyid": 1,
+      "id": 4
     }
   ]
 }
